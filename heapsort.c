@@ -1,24 +1,35 @@
 #include <stdio.h>
+#include <time.h>
+
 
 void heapsort(int v[], int tam);
 void heapify(int v[], int tam, int i);
 void troca(int v[], int i, int j);
 
 int main() {
-  int v[] = { 56, 22 , 72 , 74 , 19 , 15 , 9 , 51 };
-  int tam = sizeof(v) / sizeof(v[0]);
-  
-  printf("Array de entrada: \n");
-  for (int i = 0; i < tam; ++i)
-    printf("%d ", v[i]);
-  printf("\n\n");
-  
-  heapsort(v, tam);
-  
-  printf("\n\nVetor ordenado: |");
-  for (int i = 0; i < tam; ++i)
-    printf(" %d |", v[i]);
-  printf("\n");
+    clock_t tempo_inicial, tempo_final;
+    long double tempo_gasto;
+    tempo_inicial = clock();
+    int v[] = { 56, 22 , 72 , 74 , 19 , 15 , 9 , 51 };
+    int tam = sizeof(v) / sizeof(v[0]);
+    
+    printf("Array de entrada: \n");
+    for (int i = 0; i < tam; ++i)
+        printf("%d ", v[i]);
+    printf("\n\n");
+    
+    heapsort(v, tam);
+    
+    printf("\n\nVetor ordenado: |");
+    for (int i = 0; i < tam; ++i)
+        printf(" %d |", v[i]);
+    printf("\n");
+    tempo_final = clock();
+
+    tempo_gasto = ((long double)(tempo_final - tempo_inicial)) / CLOCKS_PER_SEC;
+
+    printf("\nTempo de execucao: %.30Lf segundos\n", tempo_gasto);
+
 }
 
 void heapsort(int v[], int tam) {
