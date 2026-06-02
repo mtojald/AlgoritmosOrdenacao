@@ -8,7 +8,7 @@ void troca(int v[], int i, int j);
 
 int main() {
     clock_t tempo_inicial, tempo_final;
-    long double tempo_gasto;
+    double tempo_gasto;
     tempo_inicial = clock();
     int v[] = { 56, 22 , 72 , 74 , 19 , 15 , 9 , 51 };
     int tam = sizeof(v) / sizeof(v[0]);
@@ -26,9 +26,9 @@ int main() {
     printf("\n");
     tempo_final = clock();
 
-    tempo_gasto = ((long double)(tempo_final - tempo_inicial)) / CLOCKS_PER_SEC;
+    tempo_gasto = ((double)(tempo_final - tempo_inicial)) / CLOCKS_PER_SEC;
 
-    printf("\nTempo de execucao: %.30Lf segundos\n", tempo_gasto);
+    printf("\nTempo de execucao: %.f segundos\n", tempo_gasto);
 
 }
 
