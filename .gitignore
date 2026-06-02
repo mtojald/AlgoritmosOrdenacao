@@ -1,0 +1,5 @@
+# Ignorar pastas de compilação/saída
+output/
+bin/
+build/
+out/
