@@ -41,5 +41,6 @@ gcc bubble_sort.c -o bubble_sort
 
 ## Link do Relatório/Documentação
 
-[https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white](https://docs.google.com/document/d/1oVByUXaooAgxfZB7onzae3SIE-5k_8-zs5NOCo3PLtQ/edit?usp=sharing)
-
+<a href="https://docs.google.com/document/d/1oVByUXaooAgxfZB7onzae3SIE-5k_8-zs5NOCo3PLtQ/edit?usp=sharing">
+  <img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" alt="Microsoft Word">
+</a>
