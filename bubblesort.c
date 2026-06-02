@@ -1,10 +1,18 @@
 #include <stdio.h>
+#include <time.h>
 
 void bubble(int *array);
 
 int main(){
+    clock_t tempo_inicial , tempo_final;
+    long double tempo_gasto;
+    tempo_inicial = clock();
     int ar[] = {1,0,10,3,4,5,6,7,8,2};
     bubble(ar);
+    tempo_final = clock();
+    tempo_gasto = ((long double)(tempo_final - tempo_inicial)) / CLOCKS_PER_SEC;
+
+    printf("\nTempo de execucao: %.30Lf segundos\n", tempo_gasto);
 }   	
 
 void bubble(int *array){
