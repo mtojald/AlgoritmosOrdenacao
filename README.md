@@ -33,10 +33,10 @@ Linux e macOS:
 
 ```bash
 # Compilando o código
-gcc bubble_sort.c -o bubble_sort
+gcc bubblesort.c -o bubblesort
 
 # Executando o programa
-./bubble_sort
+./bubblesort
 ```
 
 ## Link do Relatório/Documentação
