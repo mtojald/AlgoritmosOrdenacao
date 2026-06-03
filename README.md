@@ -25,7 +25,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina **Windows, Linux ou macOS** (o código padrão em C é compatível com todos estes sistemas operacionais).
 * Você leu a documentação básica sobre **a biblioteca `<time.h>` e ponteiros em C** (opcional, mas recomendado para entender o decaimento de ponteiros).
 
-## 🚀 Instalando e Executando o Medidor de Tempo (Bubble Sort)
+## 🚀 Instalando e Executando o Medidor de Tempo
 
 Para compilar e rodar o projeto, abra o seu terminal na pasta onde o arquivo `.c` está salvo e siga estas etapas:
 
