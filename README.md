@@ -47,3 +47,8 @@ make clean
 <a href="https://docs.google.com/document/d/1oVByUXaooAgxfZB7onzae3SIE-5k_8-zs5NOCo3PLtQ/edit?usp=sharing">
   <img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" alt="Microsoft Word">
 </a>
+
+## 💻 Máquina Utilizada no Experimento (Especificações)
+- Processador: i5-1235U
+- Ram: 8GB DDR4
+- GPU: intel iris Xe Graphics
