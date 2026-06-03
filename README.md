@@ -33,10 +33,13 @@ Linux e macOS:
 
 ```bash
 # Compilando o código
-gcc bubblesort.c -o bubblesort
+make
 
 # Executando o programa
-./bubblesort
+make bubble OU make heap
+
+# Limpando os Arquivos EXE
+make clean
 ```
 
 ## Link do Relatório/Documentação
